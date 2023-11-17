@@ -37,7 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hexlet_django_blog', # <- добавляем эту строчку для настройки Django
+    'hexlet_django_blog', # <- добавляем эту строчку для настройки Django, теперь это стало приложением
+    'hexlet_django_blog.article',  # <- добавляем эту строчку.
+                                    # Чтобы закончить создание болванки приложения,
+                                    # остается задать его имя в файле apps.py и
+                                    # подключить в settings.INSTALLED_APPS.
+                                    # Для этого в качестве имени мы указываем полный путь к приложению
 ]
 
 MIDDLEWARE = [

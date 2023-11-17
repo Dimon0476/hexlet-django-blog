@@ -4,29 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="" />
+    <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2Y8Ip5qz6DZ2MDolbtXritgHavS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ProjectsPython/python-project-50",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsPython/python-project-50&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hexlet-django-blog" />
@@ -59,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699900960024</updated>
-      <workItem from="1699900962727" duration="2162000" />
+      <workItem from="1699900962727" duration="2467000" />
+      <workItem from="1700235360630" duration="2559000" />
     </task>
     <servers />
   </component>
