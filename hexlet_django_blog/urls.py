@@ -19,7 +19,7 @@ from django.urls import path, include
 from hexlet_django_blog import views
 
 urlpatterns = [
-    path('', views.index), # <- обработка адреса главной страницы
+    path('', views.HomePageView.as_view()), # <- обработка адреса главной страницы
     path('articles/', include('hexlet_django_blog.article.urls')),  # <- новая строчка для article.
                                             # С этого момента все пути, которые начинаются с "articles/",
                                             # будут перенаправляться в hexlet_django_blog.article.urls.
