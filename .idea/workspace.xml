@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,10 @@
       <workItem from="1700669792172" duration="6095000" />
       <workItem from="1700837777954" duration="3171000" />
       <workItem from="1700913532369" duration="5203000" />
-      <workItem from="1700921778645" duration="920000" />
+      <workItem from="1700921778645" duration="1125000" />
+      <workItem from="1700930479570" duration="515000" />
+      <workItem from="1700931008601" duration="641000" />
+      <workItem from="1700931739646" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="first application">
       <option name="closed" value="true" />
@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700504468309</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="models, migrations">
+      <option name="closed" value="true" />
+      <created>1700922830176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700922830176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="first template (шаблон)" />
     <MESSAGE value="extends Наследование шаблонов" />
     <MESSAGE value="Представления (views)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Представления (views)" />
+    <MESSAGE value="models, migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="models, migrations" />
   </component>
 </project>
