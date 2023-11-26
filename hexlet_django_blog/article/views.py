@@ -1,13 +1,12 @@
 from django.shortcuts import render
-from django.shortcuts import redirect, reverse
+from django.views import View
 
-# Create your views here.
-from django.http import HttpResponse
+from hexlet_django_blog.article.models import Article
 
+class IndexView(View):
 
-def index(request, tags=None, article_id=None):
-    article_id = 42
-    tags = 'python'
-
-    return render(request, 'articles/index.html', context={'article_id': article_id, 'tags': tags})
-    # return redirect('article')
+    def get(self, request, *args, **kwargs):
+        articles = Article.objects.all()[:15]
+        return render(request, 'articles/index.html', context={
+            'articles': articles,
+        })
