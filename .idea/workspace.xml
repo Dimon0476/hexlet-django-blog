@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/article/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" afterDir="false" />
@@ -90,7 +90,7 @@
       <workItem from="1701275808978" duration="799000" />
       <workItem from="1701280817911" duration="708000" />
       <workItem from="1701282245188" duration="1833000" />
-      <workItem from="1701368176942" duration="1020000" />
+      <workItem from="1701368176942" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="first application">
       <option name="closed" value="true" />
@@ -164,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701283537589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CRUD создание">
+      <option name="closed" value="true" />
+      <created>1701369445889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701369445889</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
     <MESSAGE value="Django administration" />
     <MESSAGE value="CRUD список" />
     <MESSAGE value="CRUD просмотр" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD просмотр" />
+    <MESSAGE value="CRUD создание" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD создание" />
   </component>
 </project>
