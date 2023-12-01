@@ -1,6 +1,7 @@
 # python-django-blog
 
 [Demo on Heroku](https://python-django-blog.hexlet.app)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/2c4d02d3f792fe49387c/maintainability)](https://codeclimate.com/github/Dimon0476/hexlet-django-blog/maintainability)
 
 ## Requirements
