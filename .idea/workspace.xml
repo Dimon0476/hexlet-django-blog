@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="abbc357e-7ea4-471c-bd54-1d2da8f3f7d3" />
+        <option name="url" value="https://github.com/Dimon0476/hexlet-django-blog.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ProjectsPython/python-project-50",
+    "last_opened_file_path": "D:/ProjectsPython/hexlet-django-blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +110,10 @@
       <workItem from="1701280817911" duration="708000" />
       <workItem from="1701282245188" duration="1833000" />
       <workItem from="1701368176942" duration="6148000" />
-      <workItem from="1701427950910" duration="4285000" />
+      <workItem from="1701427950910" duration="4644000" />
+      <workItem from="1701434380124" duration="76000" />
+      <workItem from="1701450406696" duration="339000" />
+      <workItem from="1701451797373" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="first application">
       <option name="closed" value="true" />
@@ -213,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701428730519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finish">
+      <option name="closed" value="true" />
+      <created>1701432527355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701432527355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +255,7 @@
     <MESSAGE value="CRUD обновление и удаление" />
     <MESSAGE value="CRUD Finish" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
 </project>
