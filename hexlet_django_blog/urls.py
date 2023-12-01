@@ -19,13 +19,8 @@ from django.urls import path, include
 from hexlet_django_blog import views
 
 urlpatterns = [
-    path('', views.HomePageView.as_view()), # <- обработка адреса главной страницы
-    path('articles/', include('hexlet_django_blog.article.urls')),  # <- новая строчка для article.
-                                            # С этого момента все пути, которые начинаются с "articles/",
-                                            # будут перенаправляться в hexlet_django_blog.article.urls.
-                                            # В приложении у нас уже приписана view index, которая связана с путем ''.
-                                            # Это означает, что запрос по пути articles/ без каких либо продолжений
-                                            # будет направлен в hexlet_django_blog.article.views.index.
-    path('about/', views.about), # <- добавляем эту строчку для страницы about/
+    path('', views.IndexView.as_view(), name='root'),
+    path('about/', views.AboutView.as_view(), name='about'),
+    path('articles/', include('hexlet_django_blog.article.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -1,9 +1,36 @@
-{% extends "base.html" %}
+{% extends 'layouts/application.html' %}
+{% load i18n %}
+
+{% block header %}
+{% translate "List of Articles" %}
+{% endblock %}
 
 {% block content %}
-    <h1>Список статей</h1>
-    {% for article in articles %}
-        <h2><a href="{{ article.id }}">{{ article.name }}</a></h2>
-        <div>{{ article.body|slice:":200" }}</div>
+<a class="nav-link" href="{% url 'articles:create' %}">{% translate "Create article" %}</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>{% translate "id"|upper %}</th>
+      <th>{% translate "name"|capfirst %}</th>
+      <th>{% translate "created date"|capfirst %}</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for article in article_list %}
+      <tr>
+        <td>{{ article.id }}</td>
+        <td>
+          <a href="{% url 'articles:detail' article.id %}">{{ article.name }}</a>
+        </td>
+        <td>{{ article.created_at|date:"d.m.Y H:i" }}</td>
+        <td>
+          <a href="{% url 'articles:update' article.id %}">{% translate "Update" %}</a>
+          <br>
+          <a href="{% url 'articles:delete' article.id %}">{% translate "Delete" %}</a>
+        </td>
+      </tr>
     {% endfor %}
+  </tbody>
+</table>
 {% endblock %}

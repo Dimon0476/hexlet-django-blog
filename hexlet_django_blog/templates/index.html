@@ -1,1 +1,6 @@
-<h1>Hello, {{ who }}!</h1>
+{% extends 'layouts/application.html' %}
+{% load i18n %}
+
+{% block header %}
+{% translate "Python Django Blog" %}
+{% endblock %}

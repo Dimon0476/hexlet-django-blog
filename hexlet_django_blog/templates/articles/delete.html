@@ -1,4 +1,6 @@
-<form action="{% url 'articles_delete' article.id %}" method="post">
-    {% csrf_token %}
-    <input type="submit" value="Удалить">
-</form>
+{% extends 'layouts/confirm_delete.html' %}
+{% load i18n %}
+
+{% block header %}
+{% translate "Delete article" %}
+{% endblock %}
