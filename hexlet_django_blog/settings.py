@@ -45,6 +45,7 @@ INSTALLED_APPS = [
                                     # остается задать его имя в файле apps.py и
                                     # подключить в settings.INSTALLED_APPS.
                                     # Для этого в качестве имени мы указываем полный путь к приложению
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [

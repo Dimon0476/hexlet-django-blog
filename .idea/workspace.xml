@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectsPython\hexlet-django-blog" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hexlet-django-blog" />
@@ -92,7 +99,7 @@
       <workItem from="1701280817911" duration="708000" />
       <workItem from="1701282245188" duration="1833000" />
       <workItem from="1701368176942" duration="6148000" />
-      <workItem from="1701427950910" duration="619000" />
+      <workItem from="1701427950910" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="first application">
       <option name="closed" value="true" />
@@ -190,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701427994911</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="README">
+      <option name="closed" value="true" />
+      <created>1701428628108</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701428628108</updated>
+    </task>
+    <task id="LOCAL-00014" summary="README">
+      <option name="closed" value="true" />
+      <created>1701428730519</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701428730519</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +232,7 @@
     <MESSAGE value="CRUD создание" />
     <MESSAGE value="CRUD обновление и удаление" />
     <MESSAGE value="CRUD Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Finish" />
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
 </project>
