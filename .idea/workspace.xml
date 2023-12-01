@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dddff64-bc71-4dcc-b364-9352a452a1e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/layouts/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/layouts/confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/layouts/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexlet_django_blog/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +16,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Y8Ip5qz6DZ2MDolbtXritgHavS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsPython/python-project-50&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ProjectsPython/python-project-50",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hexlet-django-blog" />
@@ -109,6 +92,7 @@
       <workItem from="1701280817911" duration="708000" />
       <workItem from="1701282245188" duration="1833000" />
       <workItem from="1701368176942" duration="6148000" />
+      <workItem from="1701427950910" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="first application">
       <option name="closed" value="true" />
@@ -198,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701370857697</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CRUD Finish">
+      <option name="closed" value="true" />
+      <created>1701427994911</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701427994911</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +208,7 @@
     <MESSAGE value="CRUD просмотр" />
     <MESSAGE value="CRUD создание" />
     <MESSAGE value="CRUD обновление и удаление" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD обновление и удаление" />
+    <MESSAGE value="CRUD Finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD Finish" />
   </component>
 </project>
